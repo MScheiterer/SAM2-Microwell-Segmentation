@@ -1,0 +1,21 @@
+[project]
+name = "sam2-microwell-segmentation"
+version = "0.1.0"
+description = "SAM2-based segmentation and analysis pipeline for a microwell biosensing chip"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.5",
+    "opencv-python>=4.11.0",
+    "pillow>=11.0.0",
+    "scikit-image>=0.25.0",
+    "scikit-learn>=1.6.0",
+    "scipy>=1.15.0",
+    "pandas>=2.2.0",
+    "torch>=2.5.0",
+    "tqdm>=4.67.0",
+    "pycocotools>=2.0.8",
+    "imreg-dft>=2.0.0",
+    "cellpose>=3.1.0",
+]
